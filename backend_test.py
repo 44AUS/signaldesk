@@ -10,7 +10,7 @@ from datetime import datetime
 from typing import Dict, Any, Optional
 
 class SignalDeskAPITester:
-    def __init__(self, base_url: str = "https://0b406099-09d9-49f6-87eb-5dee5b0c51b8.preview.emergentagent.com/api"):
+    def __init__(self, base_url: str = "https://expo-babel-fix.preview.emergentagent.com/api"):
         self.base_url = base_url
         self.token = None
         self.user_id = None
