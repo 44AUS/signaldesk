@@ -280,7 +280,6 @@ const styles = StyleSheet.create({
     fontSize: 56,
     fontWeight: '700',
     color: colors.text,
-    fontFamily: 'monospace',
   },
   winRateBar: {
     width: '100%',
