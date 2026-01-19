@@ -17,6 +17,7 @@ export default function App() {
           <SubscriptionProvider>
             <NavigationContainer
               theme={{
+                ...DefaultTheme,
                 dark: true,
                 colors: {
                   primary: '#10B981',
@@ -26,24 +27,7 @@ export default function App() {
                   border: '#1F1F2E',
                   notification: '#10B981',
                 },
-                fonts: {
-                  regular: {
-                    fontFamily: 'System',
-                    fontWeight: 'normal',
-                  },
-                  medium: {
-                    fontFamily: 'System',
-                    fontWeight: '500',
-                  },
-                  bold: {
-                    fontFamily: 'System',
-                    fontWeight: 'bold',
-                  },
-                  heavy: {
-                    fontFamily: 'System',
-                    fontWeight: '800',
-                  },
-                },
+                fonts: DefaultTheme.fonts,
               }}
             >
               <StatusBar style="light" />
