@@ -105,21 +105,7 @@ export default function App() {
       <SafeAreaProvider>
         <AuthProvider>
           <SubscriptionProvider>
-            <NavigationContainer
-              theme={{
-                ...DefaultTheme,
-                dark: true,
-                colors: {
-                  primary: '#10B981',
-                  background: '#0A0A0F',
-                  card: '#14141F',
-                  text: '#FFFFFF',
-                  border: '#1F1F2E',
-                  notification: '#10B981',
-                },
-                fonts: DefaultTheme.fonts,
-              }}
-            >
+            <NavigationContainer theme={customTheme}>
               <StatusBar style="light" />
               <RootNavigator />
             </NavigationContainer>
