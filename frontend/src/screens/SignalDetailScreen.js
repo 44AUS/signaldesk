@@ -284,7 +284,6 @@ const styles = StyleSheet.create({
   confidenceValue: {
     fontSize: 32,
     fontWeight: '700',
-    fontFamily: 'monospace',
   },
   section: {
     marginBottom: spacing.lg,
