@@ -331,7 +331,6 @@ const styles = StyleSheet.create({
     fontSize: 48,
     fontWeight: '700',
     color: colors.text,
-    fontFamily: 'monospace',
   },
   pricePeriod: {
     ...typography.body,
