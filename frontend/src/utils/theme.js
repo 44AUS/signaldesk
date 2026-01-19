@@ -97,12 +97,10 @@ export const typography = {
   numeric: {
     fontSize: 18,
     fontWeight: '600',
-    fontFamily: 'monospace',
   },
   numericLarge: {
     fontSize: 28,
     fontWeight: '700',
-    fontFamily: 'monospace',
   },
 };
 
