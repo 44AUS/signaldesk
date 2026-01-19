@@ -29,7 +29,7 @@ export default function App() {
                 fonts: {
                   regular: {
                     fontFamily: 'System',
-                    fontWeight: '400',
+                    fontWeight: 'normal',
                   },
                   medium: {
                     fontFamily: 'System',
@@ -37,11 +37,11 @@ export default function App() {
                   },
                   bold: {
                     fontFamily: 'System',
-                    fontWeight: '700',
+                    fontWeight: 'bold',
                   },
                   heavy: {
                     fontFamily: 'System',
-                    fontWeight: '900',
+                    fontWeight: '800',
                   },
                 },
               }}
